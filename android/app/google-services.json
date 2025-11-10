@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "15227413706",
+    "project_id": "fitnessclubapp-dcc81",
+    "storage_bucket": "fitnessclubapp-dcc81.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15227413706:android:5d8dbfc23c84701cd84033",
+        "android_client_info": {
+          "package_name": "com.example.drawing_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxCxk8pybsB5a6aVTkjqid6Q2y-Fwf1fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15227413706:android:2a2a9727b3a5a662d84033",
+        "android_client_info": {
+          "package_name": "com.example.fitness_club_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxCxk8pybsB5a6aVTkjqid6Q2y-Fwf1fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
