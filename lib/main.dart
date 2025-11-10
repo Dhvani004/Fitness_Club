@@ -6,6 +6,7 @@ import 'login.dart';
 import 'signup.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+
 import 'home.dart';
 
 void main() async {
@@ -31,15 +32,15 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class AuthGate extends StatelessWidget{
+class AuthGate extends StatelessWidget {
   const AuthGate({super.key});
   @override
-  Widget build(BuildContext context){
-    final user= FirebaseAuth.instance.currentUser;
-    if(user!=null){
+  Widget build(BuildContext context) {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user != null) {
       return const Home();
-    }else{
-     return const LoginPage();
+    } else {
+      return const LoginPage();
     }
   }
 }
@@ -57,9 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       // appBar: AppBar(title: const Text('Drawing App')),
       body: Container(
-        decoration: const BoxDecoration(
-          color: Colors.white,
-        ),
+        decoration: const BoxDecoration(color: Colors.white),
         child: Center(
           child: Padding(
             padding: EdgeInsets.all(10),
